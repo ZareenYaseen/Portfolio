@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./logo.png" style="width: 50px; height: 50px;">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+        function order(){
+            alert("Thank you for your order");
+        }
+    </script>
+    <title>Document</title>
+    <style type="text/css">
+    *{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #e5063a;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 60px;
+}
+.menu img{
+    margin-left: 25px;
+    margin-top: 0;
+    padding: 0;
+    float: left;
+}
+.nav-bar{
+    margin-left: 500px;
+
+}
+.menu ul{
+    margin-left: 80px;
+
+}
+.menu ul a li{
+    display: inline-block;
+    margin-right: 40px;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    float: left;
+    margin-top: 20px;
+    color: #fff;
+}
+.menu ul a li:hover{
+    color: #000000;
+    border-bottom: 4px solid #000000;
+    padding-bottom: 20px;
+}
+
+/* ______________________________________________________ */
+.slide-box{
+    width: 100%;
+    text-align: center;
+    height: 400px;
+    background-image: url("./banner.jpg");
+}
+.slide-box h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    padding-top: 50px;
+}
+.slide-box p{
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 50px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #ffb700e0
+}
+/* ----------------------------------------------------- */
+.our-advantage{
+    width: 100%;
+    min-height: 55vh;
+    background-color: white;
+    text-align: center;
+}
+.our-advantage h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    padding-top: 50px;
+}
+.our-advantage p{
+    width: 100%;
+    color: #a7a7a7;
+    font-family: sans-serif;
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10px;
+}
+.advantage-box{
+    width: 19%;
+    background-color: white;
+    overflow: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    display: block;
+}
+.advantage-box:hover{
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.advantage-box h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 auto;
+}
+.advantage-box p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 auto;
+    text-align: center;
+    font-size: 12px;
+}
+/* _______________________________________________________________________ */
+.about-us{
+    background-image: url(./banner-about.jpg);
+    width: 100%;
+    min-height: 80vh;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    /* text-align: center; */
+}
+.about-us h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    padding-top: 50px;
+    text-align: center;
+}
+.about-us p{
+   
+    color: black;
+    font-family: sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 20px;
+    padding-bottom: 10px;   
+}
+.about-us button{
+
+    margin-left: 600px;
+
+}
+
+/* ________________________________________________________ */
+.services{
+    width: 100%;
+    min-height: 70vh;
+    background-color: white;
+    text-align: center;
+    float: right;
+}
+.services h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    padding-top: 40px;
+}
+.services p{
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10px;
+}
+.service-box{
+    width: 22%;
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./icon/services/Artboard\ 6.png);
+    margin: 0 15px 5px 15px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+.service-box:hover{
+    box-shadow: 2px 10px 3px 10px rgba(235, 235, 235, 0.19);
+}
+.service-box h3:hover{
+    color: #e5063a;
+}
+.service-box h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 5px 0 5px;
+}
+.service-box p{
+    text-align: center;
+}
+.service-box a{
+    color:#e5063a;
+}
+.service-box a:hover{
+    color: black;
+}
+/* ___________________________________________________________ */
+.our-portfolio{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    float: right;
+    background-position: center;
+    background-size: cover;
+}
+.our-portfolio h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    padding-top: 50px;
+}
+.our-portfolio p{
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10px;
+}
+.our-portfolio ul{
+    list-style: none;
+}
+.our-portfolio li{
+    display: inline-block;
+    color: black;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-weight: bolder;
+}
+.our-portfolio img{
+    margin: 10px;
+    display: inline-block;
+}
+/* ___________________________________________________________ */
+
+/* _____________________________________________________ */
+/* _________________________________________________ */
+.our-skill{
+    width: 100%;
+    min-height: 60vh;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+.our-skill h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+    padding-top: 50px;
+}
+.our-skill p{
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 5px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10px;
+}
+.skill-box{
+    width: 20%;
+    background-color: white;
+    overflow: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    display: block;
+}
+.skill-box:hover{
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill-box h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 auto;
+}
+/* ________________________________________________________ */
+
+/* __________________________________________________________ */
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #e5063a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.our-contact{
+    width: 100%;
+    min-height: 80vh;
+    text-align: center;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.our-contact h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+.our-contact p{
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 25%;
+    padding-bottom: 10px;
+}
+.our-contact iframe{
+    width: 90%;
+    height: 40vh;
+    margin: 10px;
+    background-position: center;
+}
+.address p{
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 15px;
+    text-align: center;
+    padding-left: 25%;
+    padding-bottom: 10px;
+}
+.address a{
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+/* _____________________________________________________ */
+* {
+  box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+/* Style the list */
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color: #e5063a;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer-gray {
+  background-color: #EFEFEF;
+  width: 100%;
+}
+
+.footer-custom {
+  color: #888;
+  font: normal normal 12px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  max-width: 1008px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.footer-custom:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.footer-lists:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.ftr-hdr {
+  color: #000;
+  font: 22px/1.4 'BebasNeueRegular', BebasNeue, 'Bebas Neue', Arial, sans-serif;
+  margin: 1em 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .ftr-hdr {
+    font-size: 18px;
+  }
+}
+
+.footer-list-wrap {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 568px) {
+  .footer-list-wrap {
+    width: 33.3333%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-list-wrap {
+    width: 25%;
+  }
+}
+
+.ftr-links-sub {
+  padding: 0;
+  margin: 0;
+}
+
+.ftr-links-sub:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.ftr-links-sub li {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 3px 0;
+  color: #888;
+  font: normal normal 12px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+  /*width: 150px;*/
+}
+
+.footer-custom a,
+.footer-custom a:link,
+.footer-custom a:visited,
+.ftr-links-sub li .link {
+  text-decoration: none;
+  color: #888;
+  padding: 5px 0;
+  display: block;
+}
+
+.footer-custom .footer-legal a {
+  display: inline;
+}
+
+.footer-custom a:hover,
+.footer-custom a:active,
+.ftr-links-sub li .link:hover {
+  text-decoration: underline;
+  color: #888;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-custom a, .footer-custom a:link, .footer-custom a:visited, .ftr-links-sub li .link {
+    padding: 0;
+  }
+}
+/* BEGIN EMAIL CAPTURE STYLES*/
+
+.footer-email {
+  text-align: center;
+}
+
+#ftrEmailForm {
+  height: 44px;
+}
+
+#ftrEmailForm .error {
+  display: none;
+  color: red;
+  text-align: left;
+}
+
+#ftrEmailForm #ftrEmailInput {
+  background: none repeat scroll 0 0 #FFF;
+  border: 1px solid #D6D6D6;
+  box-sizing: border-box;
+  color: #888;
+  float: left;
+  font: normal normal 14px/1.4 "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding: 5px;
+  width: 70%;
+  height: 100%;
+}
+
+#ftrEmailForm #ftrEmailInput:hover {
+  border: 1px solid #888;
+}
+
+#ftrEmailForm #ftrEmailInput:focus {
+  border: 1px solid #ef9223;
+  outline: #ef9223 auto 5px;
+}
+
+#ftrEmailForm .button {
+  width: 30%;
+  height: 100%;
+  padding: 5px;
+  float: left;
+  border: 1px solid #DFDFDF;
+  box-sizing: border-box;
+  color: #000;
+  font: normal bold 18px/1 BebasFamily, BebasNeueRegular, "Bebas Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: #FFF;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #e1e1e1));
+  background: -webkit-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -moz-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -ms-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: -o-linear-gradient(top, white 0, #e1e1e1 100%);
+  background: linear-gradient(to bottom, white 0, #e1e1e1 100%);
+  cursor: pointer;
+  vertical-align: middle;
+  outline: none;
+}
+
+#ftrEmailForm .button:hover,
+#ftrEmailForm .button:active {
+  background: #e5063a;
+  color: #FFF;
+  outline: none;
+}
+/* BEGIN SOCIAL STYLES*/
+
+
+}
+
+
+.ftr-bbb span,
+.ftr-stella span {
+  background-image: url("http://cache1.artprintimages.com/images/jump_pages/rebrand2/images/subnav2.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+  display: inline-block;
+  height: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+.ftr-bbb span {
+  background-position: -339px -8px;
+  width: 96px;
+}
+
+.ftr-stella span {
+  background-position: -339px -107px;
+  width: 57px;
+}
+</style>
+</head>
+<body>
+    <div class="page">
+        <header>
+                
+            <div class="menu">
+                <div class="logo">
+                    <a href="./index.html"><img src="./logo-portfolio.png" alt="logo" style="width: 100px; height: 60px;"></a>
+                </div>
+                <div class="nav-bar">
+                    <ul>
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>Reviews</li></a>
+                        <a href="#"><li>Portfolio</li></a>
+                        <a href="#"><li>Services</li></a>
+                        <a href="#"><li>Our Skills</li></a>
+                        <a href="#"><li>Contact Us</li></a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- ------------------------------- -->
+        <div class="slide-box">
+            <h1>WE ARE EXPERTS</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima fugit tenetur quae perspiciatis, labore maiores quia, minus repellat provident dicta sapiente assumenda natus ex laudantium earum sequi fuga consequuntur? Provident.</p>
+            <button type="button" class="btn">Read More</button>
+        </div>
+        <!-- ______________________________________________________________________________ -->
+        <div class="our-advantage">
+            <h1>OUR <span style="color: #e5063a;">ADVANTAGES</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, alias quae? Distinctio nihil explicabo beatae incidunt. Corrupti accusantium, voluptatibus quo voluptas eveniet veritatis error quis dolorem explicabo et! Corporis, exercitationem?</p>
+            <div class="advantage-box">
+                <img class="advantage-icon" src="./innovation.png" style="width: 50%;" alt="icon">
+                <h3 class="advantage-h3">INNOVATION</h3>
+                <p class="advantage-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aut?</p>
+            </div>
+            <div class="advantage-box">
+                <img class="advantage-icon" src="./security.png" style="width: 50%;" alt="icon">
+                <h3 class="advantage-h3">QUALITY</h3>
+                <p class="advantage-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aut?</p>
+            </div>
+            <div class="advantage-box">
+                <img class="advantage-icon" src="./team.png" style="width: 50%;" alt="icon">
+                <h3 class="advantage-h3">EXPERIENCE</h3>
+                <p class="advantage-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aut?</p>
+            </div>
+            <div class="advantage-box">
+                <img class="advantage-icon" src="./target.png" style="width: 50%;" alt="icon">
+                <h3 class="advantage-h3">HAPPY CLIENTS</h3>
+                <p class="advantage-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aut?</p>
+            </div>
+            <div class="advantage-box">
+                <img class="advantage-icon" src="./help.png" style="width: 50%;" alt="icon">
+                <h3 class="advantage-h3">SUPPORT</h3>
+                <p class="advantage-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aut?</p>
+            </div>
+        </div>
+        <!-- __________________________________________________________ -->
+        <div class="about-us">
+
+            <h1>ABOUT <span style="color: #e5063a;">US</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia praesentium laudantium labore rerum qui quaerat adipisci esse iusto corporis nisi, ipsa nam molestiae eligendi necessitatibus, ratione reprehenderit totam aliquam quia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda, fuga error, sint praesentium ipsam fugiat dignissimos nihil blanditiis dolore, quas voluptate doloremque mollitia fugit corrupti velit nulla cum maiores! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium laboriosam, nesciunt, veritatis minus temporibus ullam magnam dignissimos tempore ipsum maxime voluptatum maiores mollitia fugiat possimus cum animi. Rem fugit dolor nisi maiores in quis culpa itaque debitis, fuga vel? Earum hic cupiditate eos repellat eum ex magni qui neque, ipsa magnam sint excepturi id voluptatibus illum delectus cum dolore a quaerat! Enim iure et itaque? Sed qui provident iste harum quod porro optio tempore sunt officiis, cum eaque placeat, molestias sequi fugiat minus reiciendis ex vero ducimus quo voluptatum maxime excepturi? Exercitationem possimus natus delectus sapiente debitis fugit, corporis minus.</p>
+
+            <button id="about-us-btn" type="button" class="btn">Read More</button>
+            
+            
+        </div>
+        <!-- __________________________________________________________ -->
+        <div class="services">
+            <h1>OUR <span style="color: #e5063a;">SERVICES</span></h1>
+            <p>Nam vel lacus ipsum. Mauris dapibus justo tortor. Nullam non metus at nunc consectetur mattis. Nam in enim massa. Fusce ornare justo ac dapibus finibus. Nam elementum ac ligula ultrices imperdiet. Donec nunc mi, dapibus eget convallis quis, consequat vitae leo. Phasellus rutrum fermentum dapibus. Phasellus a velit vitae tortor blandit aliquet. Nulla ac mattis nisi, sit amet semper augue. Phasellus posuere nec leo ultrices dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <div class="service-box">
+                <img class="process-icon" src="./services-icon.png" style="width: 30%; " alt="icon">
+                <h3>Web Deisgn</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, earum.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="service-box">
+                <img class="process-icon" src="./services-icon.png" style="width: 30%; " alt="icon">
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, earum.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="service-box">
+                <img class="process-icon" src="./services-icon.png" style="width: 30%; " alt="icon">
+                <h3>SEO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, earum.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="service-box">
+                <img class="process-icon" src="./services-icon.png" style="width: 30%; " alt="icon">
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, earum.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <!-- __________________________________________________________ -->
+        
+        
+        <!-- __________________________________________________________ -->
+        <div class="our-portfolio">
+            <h1>OUR <span style="color: #e5063a">PORTFOLIO</span></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus molestias, totam nam velit aliquam explicabo nesciunt sit natus rerum, dicta pariatur cum. Vitae magnam distinctio recusandae odit dolore enim ex!</p>
+            <ul>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>Logo Design</li>
+                <li>Branding</li>
+                <li>Marketing</li>
+                <li>SEO</li>
+            </ul>
+            <img style="width: 50%; height: 50vh;" src="./portfolio-banner.jpg" alt="portfolio">
+        </div>
+        <!-- __________________________________________________________ -->
+        
+        <!-- __________________________________________________________ -->
+        <div class="our-skill">
+            <h1>OUR <span style="color: #e5063a;">SKILLS</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, alias quae? Distinctio nihil explicabo beatae incidunt. Corrupti accusantium, voluptatibus quo voluptas eveniet veritatis error quis dolorem explicabo et! Corporis, exercitationem?</p>
+            <div class="skill-box">
+                <img class="skill-icon" src="./language.png" style="width: 50%;" alt="icon">
+                <h3 class="skill-h3">Seo & Ads</h3>
+            </div>
+            <div class="skill-box">
+                <img class="skill-icon" src="./idea.png" style="width: 50%;" alt="icon">
+                <h3 class="skill-h3">Graphic Designing</h3>
+            </div>
+            <div class="skill-box">
+                <img class="skill-icon" src="./firedrive.png" style="width: 50%;" alt="icon">
+                <h3 class="skill-h3">Branding</h3>
+            </div>
+            <div class="skill-box">
+                <img class="skill-icon" src="./setting.png" style="width: 50%;" alt="icon">
+                <h3 class="skill-h3">Web Development</h3>
+            </div>
+        </div>
+        <!-- __________________________________________________________ -->
+            
+        
+        <!-- __________________________________________________________ -->
+        <div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="./map.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Pakistan</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+        
+        <!-- __________________________________________________________ -->
+       <h2 style="text-align:center">Select Your Package</h2>
+<p style="text-align:center">Lorem ipsum quistde asdhuefm akjsd wwopmw.</p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Basic</li>
+    <li class="grey">$ 9.99 / year</li>
+    <li>10GB Storage</li>
+    <li>10 Emails</li>
+    <li>10 Domains</li>
+    <li>1GB Bandwidth</li>
+    <li class="grey"><button onclick="order()" class="button">Order Now</button></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#e5063a">Pro</li>
+    <li class="grey">$ 24.99 / year</li>
+    <li>25GB Storage</li>
+    <li>25 Emails</li>
+    <li>25 Domains</li>
+    <li>2GB Bandwidth</li>
+    <li class="grey"><button onclick="order()" class="button">Order Now</button></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li class="grey">$ 49.99 / year</li>
+    <li>50GB Storage</li>
+    <li>50 Emails</li>
+    <li>50 Domains</li>
+    <li>5GB Bandwidth</li>
+    <li class="grey"><button onclick="order()" class="button">Order Now</button></li>
+  </ul>
+</div>
+
+     <footer>
+  <div class="footer-gray">
+    <div class="footer-custom">
+      <div class="footer-lists">
+        <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">Order Toll Free</h6>
+          <ul class="ftr-links-sub">
+            <li>800-952-5592</li>
+          </ul>
+          <h6 class="ftr-hdr">International</h6>
+          <ul class="ftr-links-sub">
+            <li><a href="#" rel="nofollow">Pakistan</a></li>
+            <li><a href="#" rel="nofollow">United Kingdom</a></li>
+          </ul>
+        </div>
+        <!--/.footer-list-wrap-->
+        <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">Customer Service</h6>
+          <ul class="ftr-links-sub">
+            <li><a href="#" rel="nofollow">Contact Us</a></li>
+            <li><a href="#" rel="nofollow">Ordering</a></li>
+            <li><a href="#" rel="nofollow">Shipping &amp; Delivery</a></li>
+            <li><a href="#" rel="nofollow">Returns</a></li>
+            <li><a href="#" rel="nofollow">International Orders</a></li>
+            <li><a href="#" rel="nofollow">Gift Cards</a></li>
+            <li><a href="#" rel="nofollow">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">About</h6>
+          <ul class="ftr-links-sub">
+            <li><a href="#" rel="nofollow">Our Company</a></li>
+            <li><a href="#" rel="nofollow">Careers</a></li>
+            <li><a href="#" rel="nofollow">Artist Rising</a></li>
+            <li><a href="#" rel="nofollow">Business &amp; Trade Sales</a></li>
+            <li><a href="#" rel="nofollow">Affiliate Program</a></li>
+            <li><a href="#" rel="nofollow"><strong>Shop Our Catalog</strong></a></li>
+            <li><a href="#" rel="nofollow">ART.COM BLOG</a></li>
+          </ul>
+        </div>
+        <!--/.footer-list-wrap-->
+        <div class="footer-list-wrap">
+          <h6 class="ftr-hdr">My Account</h6>
+          <ul class="ftr-links-sub">
+            <art:content rule="!loggedin">
+              <li class="ftr-Login"><span class="link login-trigger">Access My Account</span></li>
+              <li><span class="link" onclick="link('#')">Track My Order</span></li>
+            </art:content>
+            <art:content rule="loggedin">
+              <li class="ftr-Login"><span class="link ftr-access-my-account">Access My Account</span></li>
+              <li><span class="link" onclick="window.location.href = getProfileKey() + '?pagetype=oh';">Track My Order</span></li>
+            </art:content>
+          </ul>
+        </div>
+        <!--/.footer-list-wrap-->
+      </div>
+      <!--/.footer-lists-->
+      <div class="footer-email">
+        <h6 class="ftr-hdr">Sign up for exclusive offers and inspiration</h6>
+        <div id="ftr-email" class="ftr-email-form">
+          <form id="ftrEmailForm" method="post" action="#">
+            <div class="error">Please enter a valid email address</div>
+            <input type="text" name="email_address_" id="ftrEmailInput" class="input" placeholder="Enter email address" />
+            <!--
+                -->
+            <input type="submit" class="button" value="SUBMIT" />
+            <input type="hidden" name="country_iso2" value="">
+            <input type="hidden" name="language_iso2" value="en">
+            <input type="hidden" name="site_domain" value="art.com">
+            <input type="hidden" name="email_acq_source" value="01-000001">
+            <input type="hidden" name="email_acq_date" value="" id="ftr-email-date">
+            <input type="hidden" name="brand_id" value="ART">
+            <input type="hidden" name="_ri_" value="X0Gzc2X%3DWQpglLjHJlYQGnp51yrMf2qXdC9tjU8pzgMtwfYzaVwjpnpgHlpgneHmgJoXX0Gzc2X%3DWQpglLjHJlYQGnyLSq2fzdkuzdzglHMsUhgeNzaSgkk">
+          </form>
+        </div>
+        <!--/.ftr-email-form-->
+        <div class="ftr-email-privacy-policy"></div>
+      </div>
+      <!--/.footer-email-->
+      
+     
+      <!--/.footer-social-->
+     
+</footer>
+    </div>
+</body>
+</html>
